@@ -17,7 +17,6 @@ h1 {   margin: 50px;
         color: #FFFFFF;
         font-family: Georgia, sans-serif;
         text-align: center;
-        justify-content: center;
     }
     #nav{
         display: flex;
