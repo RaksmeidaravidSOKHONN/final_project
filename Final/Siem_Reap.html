@@ -32,32 +32,29 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
         .destination-cards {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            gap: 20px;
+            gap: 10px;
         }
 
         article {
-            width: calc(50% - 10px); /* Two images in a row with a gap of 20px */
+            width: calc(50% - 10px);
             text-align: center;
         }
 
         article img {
             width: 445px;
-            height: 295px;
-            object-fit: contain;
+            height: auto;
+            object-fit: cover;
             border-radius: 5px;
+            max-width: 100%;
         }
 
         article p {
             margin-top: 10px;
+            text-align: center;
         }
     </style>
 </head>
@@ -70,22 +67,22 @@
     <div class="destination-cards">
     <article>
         <img src="angkor_wat.jpg">
-        <h2>Angkor Wat temple</h2>
+        <figcaption>Angkor Wat temple</figcaption>
         <p>dks,fsmdv</p>
     </article>
     <article>
         <img src="bakheng.jpg">
-        <h2>Bakheng mountain</h2>
+        <figcaption>Bakheng mountain</figcaption>
         <p>djvfgfkg</p>
     </article>
     <article>
         <img src="kulen.jpg">
-        <h2>Kulen mountain</h2>
+        <figcaption>Kulen mountain</figcaption>
         <p>dmvkmf nkdf</p>
     </article>
     <article>
         <img src="pradak.jpg">
-        <h2>Pradak village</h2>
+        <figcaption>Pradak village</figcaption>
         <p>ndmmdkdfj</p>
     </article>
     </div>
