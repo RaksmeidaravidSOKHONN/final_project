@@ -7,8 +7,8 @@
     <style>
         header {
             text-align: center;
-            font-size: 2rem;
-            padding: 20px;
+            font-size: 1.5rem;
+            padding: 10px;
         }
         body {
             font-size: 100%;
@@ -21,18 +21,74 @@
             text-justify: justify;
             text-indent: 50px;
         }
+        li {
+            font-size: large;
+        }
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .destination-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        article {
+            width: calc(50% - 10px); /* Two images in a row with a gap of 20px */
+            text-align: center;
+        }
+
+        article img {
+            width: 445px;
+            height: 295px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+
+        article p {
+            margin-top: 10px;
+        }
     </style>
 </head>
-<header>Siem Reap Province</header>
+<header><h1>Siem Reap Province</h1></header>
 <body>
 <h2>Siem Reap Province in northwestern Cambodia offers a diverse and captivating experience beyond its famous tourist destinations. Its vibrant community, rich cultural heritage, and picturesque landscapes provide an authentic glimpse into the everyday lives of the Cambodian people. Visitors can engage with the locals and learn about their traditional customs and way of life.</h2>
 <br>
 <h2>Here are some locations that you must go when arrived in Siem Reap:</h2>
-<ol>
-    <li>Angkor Wat temple</li>
-    <li>Bakeng Moutain</li>
-    <li>Kulen Moutain</li>
-    <li>Pradak Village</li>
-</ol>
+<section id="destinations">
+    <div class="destination-cards">
+    <article>
+        <img src="angkor_wat.jpg">
+        <h2>Angkor Wat temple</h2>
+        <p>dks,fsmdv</p>
+    </article>
+    <article>
+        <img src="bakheng.jpg">
+        <h2>Bakheng mountain</h2>
+        <p>djvfgfkg</p>
+    </article>
+    <article>
+        <img src="kulen.jpg">
+        <h2>Kulen mountain</h2>
+        <p>dmvkmf nkdf</p>
+    </article>
+    <article>
+        <img src="pradak.jpg">
+        <h2>Pradak village</h2>
+        <p>ndmmdkdfj</p>
+    </article>
+    </div>
+</section>
 </body>
 </html>
