@@ -1,11 +1,12 @@
 body { font-size: 150%;
 font-family: Arial, Helvetica, sans-serif;
 color: black;
-    background-image: url(pp1.jpg); background-repeat: no-repeat;
-background-size: 100%;}
+    background-image: url(pp1.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;}
     /* background-color: #769ABE;} */
 header { display: flex;
-        justify-content: center;
+        justify-content: right;
         min-height: 0vh;
         background-size: 100% 100%;
         background-repeat: no-repeat; 
@@ -16,7 +17,6 @@ h1 {   margin: 50px;
         color: #FFFFFF;
         font-family: Georgia, sans-serif;
         text-align: center;
-        justify-content: center;
     }
     #nav{
         display: flex;
@@ -53,6 +53,7 @@ h1 {   margin: 50px;
         width: 300px;
         height: 300px;
         background-image: url(Siemreap.png);
+        alt: Siem Reap Province;
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -60,6 +61,7 @@ h1 {   margin: 50px;
         padding: 50px;
         margin: 50px;
         box-shadow: #b5b5b5;
+        
     }
     
     #box-2 {
@@ -67,6 +69,7 @@ h1 {   margin: 50px;
         width: 300px;
         height: 300px;
         background-image: url(Battambang.png);
+        alt: Battambang Province;
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -80,10 +83,21 @@ h1 {   margin: 50px;
         width: 300px;
         height: 300px;
         background-image: url(Kampot.png);
+        alt: Kampot Province;
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
         float: left;
         padding: 50px;
         margin: 50px;
+    }
+
+    figcaption {
+    position: relative;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: bold;
+    color: #000000;
     }
