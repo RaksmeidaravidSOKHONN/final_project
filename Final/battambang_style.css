@@ -1,0 +1,47 @@
+* {box-sizing:border-box}
+header { background-color: #5fa3d7;
+    background-image: url(Bat.png);
+    background-repeat: no-repeat;	
+    padding-left: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #1e6eb9;
+    width: auto;
+    text-align: center;
+}
+
+.class {background-color: #5fa3d7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #1e6eb9;
+    width: auto;
+
+}
+
+
+
+body {
+    width:auto;
+    font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
+    background-color: #64a5d7;   
+    background-image: linear-gradient(to 
+	bottom, #FFFFFF, #4494df);
+    background-repeat: no-repeat;
+}
+
+fieldset { width: 800px;  /*create box*/
+    border: 3px ridge #0084ff;
+   
+}
+figure { float: left;
+    width: 300px;
+    padding-bottom: 10px;
+    background-color: #EAEAEA;
+    margin-left: 50px;
+}
+figcaption { text-align: center;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+}
