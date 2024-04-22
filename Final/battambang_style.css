@@ -2,25 +2,16 @@
 header { background-color: #5fa3d7;
     background-image: url(Bat.png);
     background-repeat: no-repeat;	
-    padding-left: 500px;
+    padding-left: 450px;
     padding-bottom: 30px;
-    padding-top: 30px;
-    padding-right: 20px;
-    font-size: 100%;
+    padding-top: 20px;
+    padding-right: 30px;
+    font-size: 1.3vw;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #1e6eb9;
     width: auto;
     text-align: center;
 }
-
-.class {background-color: #5fa3d7;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #1e6eb9;
-    width: auto;
-
-}
-
-
 
 body {
     width:auto;
@@ -31,17 +22,27 @@ body {
     background-repeat: no-repeat;
 }
 
-fieldset { width: 800px;  /*create box*/
-    border: 3px ridge #0084ff;
-   
-}
+
 figure { float: left;
     width: 300px;
     padding-bottom: 10px;
-    background-color: #EAEAEA;
+    background-color: #aecde0;
     margin-left: 50px;
+    border-radius: 10px;
 }
-figcaption { text-align: center;
-        font-style: italic;
+
+figcaption { text-align:justify;
+        padding: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
 }
+
+
+  
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+
+    color: #fff;
+  }
