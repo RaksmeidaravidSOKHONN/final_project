@@ -75,6 +75,7 @@ figcaption { text-align: justify;
 
 
 footer {
+    text-align: center;
     width: auto;
     padding: 10px;
     background-color: #197dda;
