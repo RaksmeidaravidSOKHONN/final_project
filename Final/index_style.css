@@ -16,10 +16,11 @@ header { display: flex;
         display: flex;
         flex-wrap: wrap;
 }
-h1 {   margin: 50px;
+h1 {    margin: 50px;
         color: #FFFFFF;
         font-family: Georgia, sans-serif;
         text-align: center;
+        font-size: 50px;
     }
     #nav{
         display: flex;
