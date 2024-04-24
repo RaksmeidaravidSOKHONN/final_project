@@ -3,9 +3,9 @@ header { background-color: #5fa3d7;
     background-image: url(Bat.png);
     background-repeat: no-repeat;	
     padding-left: 450px;
-    padding-bottom: 30px;
-    padding-top: 20px;
-    padding-right: 30px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    padding-right: 50px;
     font-size: 1.3vw;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #1e6eb9;
@@ -15,7 +15,7 @@ header { background-color: #5fa3d7;
 
 body {background-color: #64a5d7;
     height: fit-content;}
-main {
+h2 {
     width:auto;
     font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
     background-color: #64a5d7;   
@@ -32,7 +32,7 @@ figure { float: left;
     border-radius: 10px;
 }
 
-figcaption { text-align:justify;
+figcaption { text-align: center;
         padding: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
 }
