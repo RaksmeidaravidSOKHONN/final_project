@@ -39,6 +39,7 @@ nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 body {background-color: #298bd6;
