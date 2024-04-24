@@ -1,9 +1,7 @@
 body { font-size: 150%;
 font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: #64a5d7;   
-    background-image: linear-gradient(to 
-    bottom, #FFFFFF, #4494df); 
+color: black;
+    background-image: url(pp1.jpg); 
     background-repeat: no-repeat;
     background-size: 100%;}
     /* background-color: #769ABE;} */
@@ -101,10 +99,4 @@ h1 {   margin: 50px;
     text-align: center;
     font-size: 0.8em;
     font-style: bold;
-<<<<<<< HEAD:Final/style_index.css
-    color: #000000;
     }
-=======
-    color: #ffffff;
-    }
->>>>>>> c457688b4d73d339ff887a1b435f62a49feed2a9:Final/style.css
