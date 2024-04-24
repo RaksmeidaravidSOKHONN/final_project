@@ -1,0 +1,105 @@
+body { font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #64a5d7;   
+    background-image: linear-gradient(to 
+    bottom, #FFFFFF, #3D52A0); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+   
+header { display: flex;
+        justify-content: right;
+        min-height: 0vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+        display: flex;
+        flex-wrap: wrap;
+}
+h1 {   margin: 50px;
+        color: #FFFFFF;
+        font-family: Georgia, sans-serif;
+        text-align: center;
+    }
+    #nav{
+        display: flex;
+        justify-content: space-around;;
+        align-items: center;
+        color:#FFFFFF
+    }
+#nav h1{
+        color: aliceblue;
+        font-size: 1rem;
+        display: flex;
+        font-family: cursive;             
+    }
+#nav ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+#nav ul li{
+        list-style: none;
+        padding: 3px 15px 3px 15px;
+    }
+#nav ul li:hover,#phone a:hover,#mobile_menu ul li:hover{
+        background: gray;
+        cursor: pointer;
+    }
+#nav ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+    }
+
+#box-1 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-image: url(Siemreap.png);
+        alt: Siem Reap Province;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        padding: 50px;
+        margin: 50px;
+        box-shadow: #b5b5b5;
+        
+    }
+    
+ #box-2 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-image: url(Battambang.png);
+        alt: Battambang Province;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        padding: 50px;
+        margin: 50px;
+    }
+    
+ #box-3 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-image: url(Kampot.png);
+        alt: Kampot Province;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        float: left;
+        padding: 50px;
+        margin: 50px;
+    }
+
+figcaption {
+    position: relative;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    font-style: bold;
+    }

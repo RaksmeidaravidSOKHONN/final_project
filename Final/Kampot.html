@@ -30,20 +30,34 @@ header h1 {
   margin-bottom: 0;
 }
 
-nav ul {
+#nav{
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  color:#FFFFFF
+}
+#nav h1{
+  color: aliceblue;
+  font-size: 1rem;
+  display: flex;
+  font-family: cursive;             
+}
+#nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav ul li{
   list-style: none;
-  margin: 0;
-  padding: 0;
+  padding: 3px 15px 3px 15px;
 }
-
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+#nav ul li:hover,#phone a:hover,#mobile_menu ul li:hover{
+  background: gray;
+  cursor: pointer;
 }
-
-nav a {
+#nav ul li a {
   text-decoration: none;
-  color: inherit;
+  color: #FFFFFF;
+  font-size: 1.2rem;
 }
 
 #banner {
@@ -107,14 +121,16 @@ footer {
 </style>
 <body>
   <header>
-    <h1>Uncover the Enchantment of Kampot Province</h1>
-    <nav>
+    <nav id="nav">
       <ul>
-        <li><a href="destination.html">Destinations</a></li>
-        <li><a href="Activities.html">Activities</a></li>
-        <li><a href="Explore more.html">Explore More</a></li>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="Siem_Reap.html"> Siem Reap</a></li>
+          <li><a href="Battambang.html">Battambang</a></li>
+          <li><a href="Kampot.html">Kampot</a></li>
       </ul>
-    </nav>
+  </nav>
+    <h1>Uncover the Enchantment of Kampot Province</h1>
+    
   </header>
 
   <main>
