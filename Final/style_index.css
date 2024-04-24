@@ -17,6 +17,7 @@ h1 {   margin: 50px;
         color: #FFFFFF;
         font-family: Georgia, sans-serif;
         text-align: center;
+        font-size: 50px;
     }
     #nav{
         display: flex;
@@ -46,6 +47,7 @@ h1 {   margin: 50px;
         text-decoration: none;
         color: #FFFFFF;
         font-size: 1.2rem;
+        font-weight: bold;
     }
 
     #box-1 {
@@ -97,6 +99,6 @@ h1 {   margin: 50px;
     top: 100%;
     width: 100%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-style: bold;
     }
