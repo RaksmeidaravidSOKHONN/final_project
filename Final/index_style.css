@@ -3,7 +3,7 @@ body { font-size: 100%;
     color: black;
     background-color: #64a5d7;   
     background-image: linear-gradient(to 
-    bottom, #FFFFFF, #3D52A0); 
+    bottom, #afdde5, #3D52A0); 
     background-repeat: no-repeat;
     background-size: 100%;
     }
@@ -26,7 +26,7 @@ h1 {    margin: 50px;
         display: flex;
         justify-content: space-around;;
         align-items: center;
-        color:#FFFFFF
+        color:#FFFFFF;
     }
 #nav h1{
         color: aliceblue;
@@ -102,6 +102,6 @@ figcaption {
     top: 100%;
     width: 100%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.2em;
     font-style: bold;
     }
