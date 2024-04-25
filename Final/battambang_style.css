@@ -6,7 +6,7 @@ h1 { background-color: #5fa3d7;
     padding-bottom: 120px;
     padding-top: 120px;
     padding-right: 50px;
-   
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #1e6eb9;
     width: auto;
@@ -18,7 +18,7 @@ nav{
     justify-content: space-around;;
     float: right;
     padding-top:5px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 
     
 }
@@ -64,12 +64,12 @@ figure { float: left;
         border-radius: 10px;
         margin: 40px;
         position:relative;
-    
+        box-sizing: border-box;
 }
 
 figcaption { text-align: justify;
         padding: 10px;
-        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-family:  serif, Arial, Helvetica, sans-serif; 
 }
 
 
