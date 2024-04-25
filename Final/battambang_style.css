@@ -12,9 +12,8 @@ h1 { background-color: #5fa3d7;
     width: auto;
     text-align: center;
 }
-<<<<<<< HEAD
 
-nav{
+/* nav{
     display: flex;
     justify-content: space-around;;
     float: right;
@@ -22,44 +21,41 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
 
     
-}
+} */
 
-nav ul{
-=======
 header { display: flex;
     justify-content: right;
     min-height: 0vh;
     background-size: 100% 100%;
     background-repeat: no-repeat; 
->>>>>>> aa74275bd1281bb08b1ece6ed7b899cf5935ff17
     display: flex;
     flex-wrap: wrap;
 }
-#nav{
+nav{
     display: flex;
     justify-content: space-around;;
     align-items: center;
     color:#FFFFFF;
 }
-#nav h1{
+nav h1{
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1.2rem;
     display: flex;
     font-family: cursive;             
 }
-#nav ul{
+nav ul{
     display: flex;
     flex-wrap: wrap;
 }
-#nav ul li{
+nav ul li{
     list-style: none;
     padding: 3px 15px 3px 15px;
 }
-#nav ul li:hover,#phone a:hover,#mobile_menu ul li:hover{
+nav ul li:hover,#phone a:hover,#mobile_menu ul li:hover{
     background: gray;
     cursor: pointer;
 }
-#nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.2rem;
@@ -69,13 +65,13 @@ header { display: flex;
 
 body {background-color: #298bd6;
     padding-bottom: 500px;
+    font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
 }
     
 
 
 h2 {
     width:auto;
-    font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
     background-color: #64a5d7;   
     background-image: linear-gradient(to 
     bottom, #FFFFFF, #4494df);
