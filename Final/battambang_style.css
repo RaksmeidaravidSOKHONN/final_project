@@ -37,12 +37,6 @@ nav{
     align-items: center;
     color:#FFFFFF;
 }
-nav h1{
-    color: aliceblue;
-    font-size: 1.2rem;
-    display: flex;
-    font-family: cursive;             
-}
 nav ul{
     display: flex;
     flex-wrap: wrap;
