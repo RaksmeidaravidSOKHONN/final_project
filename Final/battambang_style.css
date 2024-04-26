@@ -76,7 +76,7 @@ figure {
     width: 300px;
     background-color: #aecde0;
     border-radius: 10px;
-    /* margin: auto; */
+    margin-right: 30px;
     justify-content: space-around;
     position: relative;
     box-sizing: border-box;
@@ -95,6 +95,6 @@ footer {
     background-color: #197dda;
     color: #fff;
     clear: both;
-    position: relative; /* Set footer position to relative */
-    margin-top: -100px; /* Adjust margin to make space for footer */
+    position: relative;
+    margin-top: -100px;
 }
